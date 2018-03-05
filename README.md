@@ -61,6 +61,7 @@ To retrieve user by ID:
 
 
 ## Containerizing into a Docker container
+The docker file is included in the docker folder of project.
 
 ### How to run application in Docker
 
@@ -147,7 +148,7 @@ Swagger and scheduled job is not implemented due to time constraints.
 Unable to install docker on Windows 10 home edition. Then I created Windows server 2016 on AWS cloud environment and I was still unable install docker due to some limitation of virtualization on Windows server. Finally I was successful spinning an Ubuntu server on AWS cloud environment and successfully installed the docker.
 
 ## Timeline
-#####Software installations on my laptop:
+##### Software installations on my laptop:
 Jdk 1.8,
 Mongodb,
 Intellij idea,
@@ -163,15 +164,15 @@ Installing mongodb and java8 on ubuntu VM,
 Creating docker container 					
 Time taken : 5hours
 
-###### Coding and development						
+##### Coding and development						
 Time taken: 8hours
 
-###### Testing and trouble shooting issues 				
+##### Testing and trouble shooting issues 				
 Time taken: 4hours
-###### Documentation							
+##### Documentation							
 Time taken: 2hours
 
-###### Total time taken	:						24hours
+##### Total time taken	:						24hours
  
 
 
