@@ -1,11 +1,12 @@
 # Project description
 
-This is a simple Demo of using `Java8`, `Spring Boot` , `Rest API using JSON` and `MongoDB`. Application below functionalities:
+This is a simple Demo of using `Java8`, `Spring Boot` , `Rest API using JSON` and `MongoDB`. Application implements below functionalities:
 
 1.	CRUD users: be able to save name, username, password, email into a database
 2.	Add a login / password mechanism to your project. Return 403 if invalid.
 3.	Permissions: give the ability to add permissions to user.
-	Ex: Admin is allowed to delete users
+
+	Ex1: Admin is allowed to delete users
 	Ex2: Normal user shouldn’t be able to delete user
 	Ex3: Normal user should be able to edit its own profile
 	Ex4: Not login user shouldn’t be able to access any data 
@@ -29,7 +30,10 @@ Because it's a simple demo for storing and retrieving users to/from database, `U
 
 ## How to run project locally
 
- To run the project with gradle:
+#####To build, or run project java and MongoDB should be installed.
+From the root folder of the project just run ./gradlew build Compiled springboot-mongo-demo.jar file can be found at build/libs
+
+#####To run the project with gradle:
 
 From the root folder of the project run the following command in terminal:
 
@@ -113,7 +117,7 @@ docker run -d --name spring-demo --network=spring_demo_net -p 8080:8080  spring-
 #### Verify application and Mongo started correctly
 
 Open [http://localhost:8080/](http://localhost:8080/) into any browser, add new user and verify new user is displayed.
-Open [http://localhost:8080/home](http://localhost:8080/home) into any browser, add new user and verify new user is displayed.
+Open [http://localhost:8080/home](http://localhost:8080/home) into any browser for login into application,editing the profile and deleting the profile (by admin).
 
 To verify `MongoDB`'s container logs:
 
@@ -143,7 +147,7 @@ Swagger and scheduled job is not implemented due to time constraints.
 Unable to install docker on Windows 10 home edition. Then I created Windows server 2016 on AWS cloud environment and I was still unable install docker due to some limitation of virtualization on Windows server. Finally I was successful spinning an Ubuntu server on AWS cloud environment and successfully installed the docker.
 
 ## Timeline
-######Software installations on my laptop:
+#####Software installations on my laptop:
 Jdk 1.8,
 Mongodb,
 Intellij idea,
@@ -152,22 +156,22 @@ Spring boot
 	
 Time taken:5 hours
 
-######Docker learning and installation:
+##### Docker learning and installation:
 Creating ubuntu and windows virtual machine on AWS cloud env,
 Docker installation,
 Installing mongodb and java8 on ubuntu VM,
 Creating docker container 					
 Time taken : 5hours
 
-######Coding and development						
+###### Coding and development						
 Time taken: 8hours
 
-######Testing and trouble shooting issues 				
+###### Testing and trouble shooting issues 				
 Time taken: 4hours
-######Documentation							
+###### Documentation							
 Time taken: 2hours
 
-######Total time taken	:						24hours
+###### Total time taken	:						24hours
  
 
 
