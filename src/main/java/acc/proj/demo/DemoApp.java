@@ -6,6 +6,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
 /**
  * Main Application controller.
  *
@@ -13,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @EnableAutoConfiguration
+@SpringBootApplication
+@EnableScheduling
 @ComponentScan(basePackages = "acc.proj.*")
 public class DemoApp {
 
