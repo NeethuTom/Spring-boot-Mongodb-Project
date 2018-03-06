@@ -10,6 +10,8 @@ This is a simple Demo of using `Java8`, `Spring Boot` , `Rest API using JSON` an
 	Ex2: Normal user shouldn’t be able to delete user
 	Ex3: Normal user should be able to edit its own profile
 	Ex4: Not login user shouldn’t be able to access any data 
+
+This also included some demo schedular tasks that include a cronjob that runs on configured time.
 The data entered will be saved in `collectionUsers` collection in `MongoDB`. 
 
 ## Project architecture
@@ -142,7 +144,7 @@ docker logs spring-demo
 ## Constraints
 The UI validations (for eg:username should be unique) are not included due to time constraint
 The ‘role’ field in user form should be entered as ‘admin’or ‘normal’.
-Swagger and scheduled job is not implemented due to time constraints.
+Swagger is not implemented due to time constraints.Security validation/decoding or encoding mechanism to the password storage in DB isnot enabled.
 
 ## Issues faced and learning
 Unable to install docker on Windows 10 home edition. Then I created Windows server 2016 on AWS cloud environment and I was still unable install docker due to some limitation of virtualization on Windows server. Finally I was successful spinning an Ubuntu server on AWS cloud environment and successfully installed the docker.
