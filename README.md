@@ -142,44 +142,12 @@ docker logs spring-demo
 
 
 ## Constraints
-The UI validations (for eg:username should be unique) are not included due to time constraint
+The UI validations (for eg:username should be unique) are not included.
 The ‘role’ field in user form should be entered as ‘admin’or ‘normal’.
 Swagger is not implemented due to time constraints.Security validation/decoding or encoding mechanism to the password storage in DB isnot enabled.
 
 ## Issues faced and learning
 Unable to install docker on Windows 10 home edition. Then I created Windows server 2016 on AWS cloud environment and I was still unable install docker due to some limitation of virtualization on Windows server. Finally I was successful spinning an Ubuntu server on AWS cloud environment and successfully installed the docker.
-
-## Timeline
-##### Software installations on my laptop:
-Jdk 1.8,
-Mongodb,
-Intellij idea,
-Gradle,
-Spring boot
-	
-Time taken:5 hours
-
-##### Docker learning and installation:
-Creating ubuntu and windows virtual machine on AWS cloud env,
-Docker installation,
-Installing mongodb and java8 on ubuntu VM,
-Creating docker container 					
-Time taken : 5hours
-
-##### Coding and development						
-Time taken: 8hours
-
-##### Testing and trouble shooting issues 				
-Time taken: 4hours
-##### Documentation							
-Time taken: 2hours
-
-##### Total time taken	:						24hours
- 
-
-
-
-
 
 
 
